@@ -28,14 +28,14 @@
 
 ### 2. 克隆项目
 
-```bash
+```
 git clone https://github.com/你的用户名/chengyu-search.git
 cd chengyu-search
 ```
 
 ### 3. 创建虚拟环境并安装依赖
 
-```bash
+```
 python3 -m venv venv
 source venv/bin/activate          # Linux/Mac
 # 或 venv\Scripts\activate       # Windows
@@ -45,13 +45,13 @@ pip install -r requirements.txt
 
 如果没有 `requirements.txt`，手动安装：
 
-```bash
+```
 pip install flask pypinyin
 ```
 
 ### 4. 下载成语数据并生成数据库
 
-```bash
+```
 # 下载原始数据（约 2.3 MB）
 wget https://github.com/pwxcoo/chinese-xinhua/archive/refs/heads/master.zip
 unzip master.zip
@@ -65,7 +65,7 @@ python3 build_idiom_db.py
 
 ### 5. 启动 Web 服务
 
-```bash
+```
 python3 web_query.py
 ```
 
@@ -158,5 +158,3 @@ A: 使用 `nohup python3 web_query.py > web.log 2>&1 &` 或 `screen`。
 
 感谢 [chinese-xinhua](https://github.com/pwxcoo/chinese-xinhua) 提供成语数据。
 ```
-
----
