@@ -30,7 +30,7 @@
 ## 2. 克隆项目
 
 ```bash
-git clone https://github.com/你的用户名/chengyu-search.git
+git clone https://github.com/linhao-lgtm/chengyu-search.git
 cd chengyu-search
 ```
 
