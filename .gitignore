@@ -1,0 +1,32 @@
+# 数据库文件（体积大，可重新生成）
+*.db
+*.sqlite
+*.sqlite3
+
+# 原始数据文件
+idiom.json
+*.zip
+chinese-xinhua-master/
+
+# Python 虚拟环境（不要上传）
+venv/
+chengyu_env/
+env/
+ENV/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 日志文件
+*.log
+nohup.out
+
+# IDE 配置（可选）
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
